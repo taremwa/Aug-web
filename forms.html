@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forms</title>
+    <title>Html forms</title>
 </head>
 <body>
-    <h2>User Feed-back Form</h2>
-    <form action="#">
+    <a href="./about.html">Contact page</a>
+    <h1>Student Registration Form</h1>
+    <form action="">
         <fieldset>
-        <legend>User's biography</legend><br>
-        <label for="fullname">Full Name</label>
-        <input type="text" placeholder="enter your full name" id="fullname" name="fullname"><br><br>
+            <legend>submit only valid credentials</legend>
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" requi red>
 
-        <label for="user-email">User Email</label>
-        <input type="email" placeholder="Enter a valid email" id="user-email" name="user-email"><br><br>
-
-        <label for="password">Enter a Password:</label>
-        <input type="password" placeholder="choose a password" id="password" name="password"> <br><br>
-
-        <p>Select your gender:</p>
-        <label for="male">Male</label>
-        <input type="radio" id="male" name="gender" value="male">
-
-        <label for="female">female</label>
-        <input type="radio" id="male" name="gender"><br><br>
-
-        <textarea name="" id="" cols="30" rows="10" placeholder="Describe your expectations"></textarea><br>
-        <button>Submit</button>
+        <label for="surname">Surname: </label>
+        <input type="text" id="surname"><br><br>
+        <label for="email-id">Email address:</label>
+        <input type="email" id="email-id" name="email-id">
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </p>
+        <p>
+            <label for="phone">Phone Number: </label>
+            <input type="text" id="phone">
+        </p>
+        <p>Gender:</p>
+        <p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            
+        </p>
+        <caption>Describe yourself briefly</caption><br>
+        <textarea name="biography" id="biography" cols="20"rows="6"></textarea><br>
+        <input type="submit">
         </fieldset>
     </form>
 </body>
