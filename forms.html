@@ -11,37 +11,50 @@
     </style>
 </head>
 <body>
-    <a href="./about.html">Contact page</a>
-    <h1>Student Registration Form</h1>
+    <h2>Student Registration Form</h2>
     <form action="#">
         <fieldset>
-            <legend>submit only valid credentials</legend>
-        <label for="firstname">First Name: </label>
-        <input type="text" id="firstname" requi red>
+            <legend>Please fill in correct student Information</legend>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="Type your first name here" required>
 
-        <label for="surname">Surname: </label>
-        <input type="text" id="surname"><br><br>
-        <label for="email-id">Email address:</label>
-        <input type="email" id="email-id" name="email-id">
-        <p>
-            <label for="password">Password</label>
-            <input type="password" id="password">
-        </p>
-        <p>
-            <label for="phone">Phone Number: </label>
-            <input type="text" id="phone">
-        </p>
-        <p>Gender:</p>
-        <p>
-            <input type="radio" id="male" name="gender">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender">
-            <label for="female">Female</label>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Enter your last name" required><br><br>
+
+            <label for="email-ID">Email address</label>
+            <input type="email" id="email-ID" placeholder="Enter a valid email" required><br><br>
             
-        </p>
-        <caption>Describe yourself briefly</caption><br>
-        <textarea name="biography" id="biography" cols="20"rows="6"></textarea><br>
-        <input type="submit">
+            <label for="enrolled">Date Enrolled</label>
+            <input type="date" id="enrolled" value="Year/ Month/ Day"/>
+
+            <p>Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+
+            <p><b><i>Languages of interest</i></b></p>
+            <label for="php">PHP</label>
+            <input type="checkbox" id="php">
+            <label for="java">Java</label>
+            <input type="checkbox" id="java">
+            <label for="python">Python</label>
+            <input type="checkbox" id="python">
+            <label for="">Javascript</label>
+            <input type="checkbox">
+            <label for="">C++</label>
+            <input type="checkbox"><br><br>
+
+            <label for="course-selection">Select your course program</label>
+            <select name="course-selection" id="course-selection">
+                <option value="">Choose your course of study</option>
+                <option value="se">Software Engineering</option>
+                <option value="cs">Computer Science</option>
+                <option value="bit">Information Technology</option>
+            </select><br><br>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Fill in any extra requirements you expect from this course"></textarea>
+
+            <br><br><button>Submit Form</button>
         </fieldset>
     </form>
 </body>
