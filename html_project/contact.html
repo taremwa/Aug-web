@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Foods Restaurant</title>
+    <style>
+        form {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a href="/home.html#about">About Us</a>
+                </li>
+                 <li>
+                    <a href="/home.html#menu">Our menu</a>
+                </li>
+                 <li>
+                    <a href="./services.html">Our services</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="./img/food.jpg" alt="ubuntu foods" width="400" height="270">
+            <figcaption>ubuntu local foods</figcaption>
+        </figure>
+    </header>
+    <main>
+        <!-- Content goes here -->
+        <hr>
+        <section>
+            <h4>Fill our contact form</h4>
+            <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Pleasure to receive your feedback</legend>
+                <p>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Type your names here" required>
+                </p>
+                <p>
+                    <label for="email-ID">Email Adress:</label>
+                    <input type="email" name="email-ID" id="email-ID" placeholder="Provide a valid email address" required>
+                </p>
+                <p>
+                    User Feedback: <br>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Type your suggestion here....."></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+            </form>
+        </section>
+        <hr>
+
+    </main>
+    <footer>
+        <p>Copyright &copy; ubuntu foods 2017</p>
+    </footer>
+</body>
+</html>
