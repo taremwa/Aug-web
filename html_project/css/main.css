@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 28px;
+    display: inline;
+    margin-left: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+}
