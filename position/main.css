@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: beige;
+}
+
+.item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 40px;
+    height: 130px;
+    width: 300px;
+    
+}
+
+.item-1 {
+    background-color: blueviolet;
+    position: relative ;
+    /* z-index: 2; */
+}
+
+/* Pseudo selectors */
+.item:nth-of-type(2) {
+    background-color: lightskyblue;
+    position: absolute ;
+    top: 10px;
+    left: 100px;
+    z-index: 1; 
+    /* opacity: 0.2; */
+}
+.item:nth-of-type(3) {
+    background-color: lightseagreen;
+    position: absolute ;
+    top: 20px;
+    left: 240px;
+    /* z-index: 1; */
+}
+
+.item:nth-of-type(4) {
+    background-color: lightcoral;
+    position: relative ;
+}
+.item:nth-of-type(5) {
+    background-color: lightgreen;
+    position: relative ;
+}
