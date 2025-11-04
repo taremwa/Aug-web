@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 900px;
+    background-color: rgb(171, 113, 226);
+    /* flex-direction: ;  */
+    /* justify-content:start;
+    align-items:end; */
+    /* flex-wrap: wrap; */
+    
+}
+
+.item {
+    /* width: 150px; */
+    height: 150px;
+    background-color: lightgreen;
+    margin: 20px;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+
