@@ -3,19 +3,78 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
     </head>
     <body>
-        <h1>welcome to Dynamic Websites</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur cum alias odio ea itaque debitis, a repellat porro fugit culpa vitae quam, sapiente excepturi natus tempore corporis molestias explicabo ab?</p>
+       <!-- Tables (designing tabular layout), forms (collecting user input) -->
+        <h1>Student Course Information</h1>
+       <table>
+            <tr>
+                <th>Student-ID</th>
+                <th>Student-Name</th>
+                <th>Student-Course</th>
+            </tr>
+            <tr>
+                <td>890-7</td>
+                <td>Mark</td>
+                <td>Software Engineering</td>
+            </tr>
+            <tr>
+                <td>890-7</td>
+                <td>Amon</td>
+                <td>Software Engineering</td>
+            </tr>
+            <tr>
+                <td>890-7</td>
+                <td>Prze</td>
+                <td>Software Engineering</td>
+            </tr>
+            <tr>
+                <td>890-7</td>
+                <td>Deborah</td>
+                <td>Software Engineering</td>
+            </tr>
+       </table>
+        <h2>Student Bio Data</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Fill in your student bio-data</legend>
+                <p><label for="full-name">Full Name: </label>
+            <input type="text" placeholder="type your valid name" id="full-name" required></p>
 
-        <a href="./about.html">About the Author</a>
+            <p>
+            <label for="email-id">Email Address:</label>
+            <input type="email" placeholder="type a valid email address" id="email-id" required>
+            </p>
 
-        <p>All subjects taken at the Advanced Level of Education are grouped into four categories and weighted as follows for purposes of admission to any programme of <b>Undergraduate</b> study in the University.</p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </p>
+            <p>Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
 
-        <img src="https://i.pinimg.com/originals/71/28/3b/71283bb49db55cfee5bb6acd1389c465.jpg" alt="random image" width="200" height="200">
+            <p>Choose your favorite programming languages</p>
+            <label for="css">Css</label>
+            <input type="checkbox">
+            <label for="python">Python</label>
+            <input type="checkbox">
+            <label for="java">Java</label>
+            <input type="checkbox">
+            <label for="php">PHP</label>
+            <input type="checkbox">
 
-        <h3>My Favorite food</h3>
-        <img src="./images/food.jpg" alt="image showing food">
-        
+            <p>
+                <textarea name="feedback" id="feedback" placeholder="Your feedback is highly valued" cols="30" rows="8"></textarea>
+            </p>
+            <button class="submit">Submit</button>
+            <button class="clear">Clear</button>
+            </fieldset>
+        </form>
+
+        <h2 id="diff">This is a different heading</h2>
     </body>
 </html>

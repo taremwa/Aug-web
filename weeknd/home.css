@@ -1,0 +1,45 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table {
+    background-color: aqua;
+    font-size: 20px;
+    color: brown;
+    /* border: 2px solid rgb(140 140 140); */
+}
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: brown;
+    text-transform: uppercase;
+}
+
+
+button {
+    font-size: large;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid brown;
+}
+
+.submit {
+    background-color: green;
+}
+.clear {
+    background-color: yellow;
+    color: blueviolet;
+}
+#diff{
+    color: blueviolet;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
