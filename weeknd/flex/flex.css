@@ -10,12 +10,12 @@
     background-color: lightblue;
     height: 100vh;
     display: flex;
-    /* flex-direction: row-reverse; */
-    /* flex-wrap: wrap; */
+    /* flex-direction: column;  */
+    /* flex-wrap: wrap;  */
     /* flex-flow: row wrap; */
     /* gap: 10px; */
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 
 .item{
@@ -24,6 +24,9 @@
     width: 300px;
     height: 120px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item:nth-of-type(1){
