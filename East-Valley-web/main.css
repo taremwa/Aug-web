@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: #003366;
+    /* color: aliceblue; */
+    height: 150px;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    color: aliceblue;
+    padding: 10px;
+}
+.logo a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo h4 {
+    font-size: 2.4rem;
+}
+.logo p {
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+/* navigation */
+.navbar ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar ul a {
+    color: aliceblue;   
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+/* header text & image */
+header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    color: #003366;
+    font-size: 3.6rem;
+}
+header p{
+    color: #003366;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+header img{
+    width: 600px;
+    border-radius: 8px;
+}
+
+main {
+    background-color: #003366;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: aliceblue;
+    padding: 15px;
+}
+main h3 {
+    font-size: 2.4rem;
+}
+
+.identity p{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.academic ul {
+    list-style-type:circle;
+}
+.academic ul li {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.campus-life p{
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+hr {
+    margin: 10px;
+}
+.choice {
+    padding: 20px;
+}
+.choice ol{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+.choice ol li {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.address {
+    grid-column: 2 / span 2;
+    padding: 20px;
+    
+}
+.address h3 {
+    margin-left: 35px;
+}
+.address p {
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+/* Contact css */
+.contact {
+    color: #003366;
+    font-size: 3rem;
+    margin: 40px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+section form {
+    background-color: #fff;
+    padding: 15px;
+    width: 800px;
+}
+section form label {
+    font-size: 1.5rem;
+    display: block;
+}
+section form input {
+    width: 100%;
+}
