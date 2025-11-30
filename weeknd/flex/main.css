@@ -79,6 +79,7 @@ ul li a:hover {
 }
 
 hr {
-    margin: 20px;
-    color: #333;
+    margin-top: 20px;
+    background-color: rgb(92, 186, 217);
+    height: 3px;
 }
